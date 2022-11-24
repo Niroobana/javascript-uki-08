@@ -1,19 +1,8 @@
 <div align="center">
-  <h1> 30 Days Of JavaScript: Booleans, Operators, Date</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> January, 2020</small>
-  </sub>
+  <h1> learn Javascript: Booleans, Operators, Date</h1>
 </div>
 
-[<< Day 2](../02_Day_Data_types/02_day_data_types.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
+[<< Day 2](/day2.md) | [Day 4 >>](/day4.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_3.png)
 
@@ -220,7 +209,7 @@ console.log('python'.length > 'dragon'.length)   // false
 Try to understand the above comparisons with some logic. Remembering without any logic might be difficult.
 JavaScript is somehow a wired kind of programming language. JavaScript code run and give you a result but unless you are good at it may not be the desired result.
 
-As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==. The following [link](https://dorey.github.io/JavaScript-Equality-Table/) has an exhaustive list of comparison of data types.
+As rule of thumb, if a value is not true with == it will not be equal with ===. Using === is safer than using ==.
 
 ### Logical Operators
 
@@ -348,7 +337,7 @@ alert(message)
 ```
 
 ```js
-alert('Welcome to 30DaysOfJavaScript')
+alert('Welcome to learn Javascript')
 ```
 
 Do not use too much alert because it is destructing and annoying, use it just to test.
@@ -392,7 +381,7 @@ Once we create time object. The time object will provide information about time.
 
 ```js
 const now = new Date()
-console.log(now) // Sat Jan 04 2020 00:56:41 GMT+0200 (Eastern European Standard Time)
+console.log(now) // Sat Jan 04 2022 00:56:41 GMT+0200 (Eastern European Standard Time)
 ```
 
 We have created a time object and we can access any date time information from the object using the get methods we have mentioned on the table.
@@ -403,7 +392,7 @@ Let's extract or get the full year from a time object.
 
 ```js
 const now = new Date()
-console.log(now.getFullYear()) // 2020
+console.log(now.getFullYear()) // 2022
 ```
 
 ### Getting month
@@ -412,7 +401,7 @@ Let's extract or get the month from a time object.
 
 ```js
 const now = new Date()
-console.log(now.getMonth()) // 0, because the month is January,  month(0-11)
+console.log(now.getMonth())
 ```
 
 ### Getting date
@@ -421,7 +410,7 @@ Let's extract or get the date of the month from a time object.
 
 ```js
 const now = new Date()
-console.log(now.getDate()) // 4, because the day of the month is 4th,  day(1-31)
+console.log(now.getDate()) 
 ```
 
 ### Getting day
@@ -430,9 +419,7 @@ Let's extract or get the day of the week from a time object.
 
 ```js
 const now = new Date()
-console.log(now.getDay()) // 6, because the day is Saturday which is the 7th day
-//  Sunday is 0, Monday is 1 and Saturday is 6
-// Getting the weekday as a number (0-6)
+console.log(now.getDay()) 
 ```
 
 ### Getting hours
@@ -441,7 +428,7 @@ Let's extract or get the hours from a time object.
 
 ```js
 const now = new Date()
-console.log(now.getHours()) // 0, because the time is 00:56:41
+console.log(now.getHours()) 
 ```
 
 ### Getting minutes
@@ -450,7 +437,7 @@ Let's extract or get the minutes from a time object.
 
 ```js
 const now = new Date()
-console.log(now.getMinutes()) // 56, because the time is 00:56:41
+console.log(now.getMinutes()) 
 ```
 
 ### Getting seconds
@@ -459,7 +446,7 @@ Let's extract or get the seconds from a time object.
 
 ```js
 const now = new Date()
-console.log(now.getSeconds()) // 41, because the time is 00:56:41
+console.log(now.getSeconds()) 
 ```
 
 ### Getting time
@@ -470,14 +457,14 @@ This method give time in milliseconds starting from January 1, 1970. It is also 
 
 ```js
 const now = new Date() //
-console.log(now.getTime()) // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
+console.log(now.getTime()) 
 ```
 
 1. Using _Date.now()_
 
 ```js
 const allSeconds = Date.now() //
-console.log(allSeconds) // 1578092201341, this is the number of seconds passed from January 1, 1970 to January 4, 2020 00:56:41
+console.log(allSeconds) 
 
 const timeInSeconds = new Date().getTime()
 console.log(allSeconds == timeInSeconds) // true
@@ -497,7 +484,7 @@ const minutes = now.getMinutes() // return number (0 -59)
 console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 ```
 
-🌕  You have boundless energy. You have just completed day 3 challenges and you are three steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕  Now do some exercises for your brain and for your muscle.
 
 ## 💻 Day 3: Exercises
 
@@ -583,23 +570,23 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 1. Compare your first name length and your family name length and you should get this output.
 
     ```js
-    let firstName = 'Asabeneh'
-    let lastName = 'Yetayeh'
+    let firstName = 'kamal'
+    let lastName = 'ranvir'
     ```
 
     ```sh
-    Your first name, Asabeneh is longer than your family name, Yetayeh
+    Your first name, kamal is longer than your family name, ranvir
     ```
 
 1. Declare two variables _myAge_ and _yourAge_ and assign them initial values and myAge and yourAge.
 
    ```js
-   let myAge = 250
+   let myAge = 25
    let yourAge = 25
    ```
 
    ```sh
-   I am 225 years older than you.
+   I am 50 years older than you.
    ```
 
 1. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
@@ -630,4 +617,4 @@ console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 1. Create a human readable time format using the Date time object. The hour and the minute should be all the time two digits(7 hours should be 07 and 5 minutes should be 05 )
    1. YYY-MM-DD HH:mm eg. 20120-01-02 07:05
 
-[<< Day 2](../02_Day_Data_types/02_day_data_types.md) | [Day 4 >>](../04_Day_Conditionals/04_day_conditionals.md)
+[<< Day 2](/day2.md) | [Day 4 >>](/day4.md)
