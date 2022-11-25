@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> learn Javascript: Booleans, Operators, Date</h1>
+  <h1> Learn Javascript: Booleans, Operators, Date</h1>
 </div>
 
 [<< Day 2](/day2.md) | [Day 4 >>](/day4.md)

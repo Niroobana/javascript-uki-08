@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> learn Javascript: Data Types</h1>
+  <h1> Learn Javascript: Data Types</h1>
 </div>
 
 [<< Day 1](/day1.md) | [Day 3 >>](/day3.md)
