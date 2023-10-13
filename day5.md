@@ -2,7 +2,7 @@
   <h1> Learn Javascript: Arrays</h1>
 </div>
 
-[<< Day 4](/day4.md) | [Day 6 >>](/day6.md)
+[<< Day 4](/day4.md) | [Day 6 >>](/Day6.md)
 
 ![Day 5](../images/banners/day_1_5.png)
 
