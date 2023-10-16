@@ -1,6 +1,6 @@
 
 
-[<< Day 7](Day7.md) | [Day 9 >>](Day9.md)
+[<< Day 7](/Day7.md) | [Day 9 >>](/Day9.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_8.png)
 

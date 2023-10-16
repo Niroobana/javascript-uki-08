@@ -1,4 +1,4 @@
-[<< Day 10](Day10.md) | [Day 12>>](Day12.md)
+[<< Day 10](/Day10.md) | [Day 12>>](/Day12.md)
 
 ![Day 11](../images/banners/day_1_11.png)
 

@@ -885,7 +885,7 @@ let numInt = parseInt(num)
 console.log(numInt) // 9
 ```
 
-🌕  Now do some exercises for your brain and for your muscle.  
+🌕  Now do some exercises for your brain and for your muscle  
 
 ## 💻 Day 2: Exercises
 

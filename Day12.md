@@ -1,6 +1,6 @@
 
 
-[<< Day 11](Day11.md) | [Day 13>>](Day13.md)
+[<< Day 11](/Day11.md) | [Day 13>>](/Day13.md)
 
 ![Thirty Days Of JavaScript](../images/banners/day_1_12.png)
 
@@ -519,4 +519,4 @@ distance = 12
   ```
 
 
-[<< Day 11](Day11.md) | [Day 13>>](Day13.md)
+[<< Day 11](/Day11.md) | [Day 13>>](/Day13.md)
